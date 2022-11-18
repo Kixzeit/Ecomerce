@@ -1,0 +1,564 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+.navbar{
+    height: 7rem;
+}
+.main_class {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-areas:
+        "container1"
+        "container2"
+        "container3"
+        "container4"
+        "container5"
+        "container6"
+        "container7"
+        "container8"
+        "container9"
+        "container10"
+        "container11"
+        "container12";
+    /* grid-template:
+    "container1"60vh
+    "container2"60vh
+    "container3"60vh
+    "container4"60vh
+    "container5"60vh
+    "container6"60vh
+    "container7"60vh
+    "container8"60vh
+    "container9"60vh
+    "container10"60vh
+    "container11"60vh
+    "container12"60vh/100vw;*/
+}
+
+#container1 {
+    grid-area: container1;
+    border: 1px solid red;
+}
+
+#container2 {
+    grid-area: container2;
+
+}
+
+#container3 {
+    grid-area: container3;
+
+}
+
+#container4 {
+    grid-area: container4;
+
+}
+
+#container5 {
+    grid-area: container5;
+
+}
+
+#container6 {
+    grid-area: container6;
+
+}
+
+#container7 {
+    grid-area: container7;
+
+}
+
+#container8 {
+    grid-area: container8;
+
+}
+
+#container9 {
+    grid-area: container9;
+
+}
+
+#container10 {
+    grid-area: container10;
+}
+
+#container11 {
+    grid-area: container11;
+}
+
+#container12 {
+    grid-area: container12;
+
+}
+
+.container_class {
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 0 15px 5px gray;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin-top: 5rem;
+    margin-bottom: 10rem;
+}
+
+/*
+    - gris claro: #F6F6F6 
+    - azul fuente: #363A41*/
+.color1_class {
+    background-color: #E3F2FB;
+}
+
+.color2_class {
+    background-color: #FDE1E6;
+}
+
+.color3_class {
+    background-color: #D5D5E0;
+
+}
+
+.color4_class {
+    background-color: #E3F2FB;
+}
+
+.color5_class {
+    background-color: #FDE1E6;
+}
+
+.color6_class {
+    background-color: #D5D5E0;
+
+}
+
+.color7_class {
+    background-color: #E3F2FB;
+}
+
+.color8_class {
+    background-color: #FDE1E6;
+}
+
+.color9_class {
+    background-color: #D5D5E0;
+
+}
+
+.color10_class {
+    background-color: #E3F2FB;
+}
+
+.color11_class {
+    background-color: #FDE1E6;
+}
+
+.color12_class {
+    background-color: #D5D5E0;
+
+}
+.color13_class {
+    background-color: #E3F2FB;
+}
+
+.color14_class {
+    background-color: #FDE1E6;
+}
+
+.color15_class {
+    background-color: #D5D5E0;
+
+}
+
+.color16_class {
+    background-color: #E3F2FB;
+}
+
+.color17_class {
+    background-color: #FDE1E6;
+}
+
+.color18_class {
+    background-color: #D5D5E0;
+
+}
+
+.color19_class {
+    background-color: #E3F2FB;
+}
+
+.color20_class {
+    background-color: #FDE1E6;
+}
+
+.color21_class {
+    background-color: #D5D5E0;
+
+}
+
+.color22_class {
+    background-color: #E3F2FB;
+}
+
+.color23_class {
+    background-color: #FDE1E6;
+}
+
+.color24_class {
+    background-color: #D5D5E0;
+
+}
+
+.color_text {
+    color: #8A8A8A;
+}
+
+/* diseño cards */
+.container_class {
+    width: 296px;
+    height: 403px;
+
+}
+
+.container_img_label {
+    width: 264px;
+    height: 234px;
+}
+
+.container_img_label {
+    margin-top: 15px;
+}
+
+.container_img {
+    width: 226px;
+    height: 209px;
+}
+
+.imagen {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.container_label_class {
+    width: 100%;
+}
+
+.cuerpo {
+    width: 100%;
+    height: 100%;
+}
+
+.cuerpo1 {
+    width: 100%;
+    height: 40px;
+}
+
+.cuerpo2 {
+    width: 80%;
+    height: 40px;
+}
+
+.like {
+    width: 25px;
+    height: 25px;
+    border: 1px solid #CDD2DA;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+.like_i {
+    color: #CDD2DA;
+    font-size: 1.5rem;
+}
+
+.like_rojo {
+    border: 1px solid #39c7a5;
+    font-size: 1.5rem;
+}
+
+.like_i_rojo {
+    color: #39c7a5;
+    font-size:1.5rem;
+    
+}
+
+.caja_mas_class {
+    width: 23px;
+    height: 25px;
+    background-color: #39C7A5;
+    display: flex;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    color:#fff;
+    font-size:2.2rem;
+}
+
+.caja_activa_class {
+    width: 72px;
+    height: 25px;
+    background-color: #39C7A5;
+    color: #fff;
+    border:none;
+    font-size:1.5rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Termina diseño de card*/
+/* Diseño del carrito */
+
+.carrito_compras_section_class {
+    width: 100%;
+    height: 100%;
+}
+
+.container_carrito_class {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-bottom: 1px solid gray;
+    width: 90%;
+    height: 200px;
+    display: grid;
+    grid-template-areas:
+        "imagen"
+        "nombre"
+        "precio"
+        "descripcion"
+        "cantidad"
+        "bote_basura";
+    grid-template:
+        "imagen nombre precio" 33%
+        "imagen descripcion descripcion" 33%
+        "imagen cantidad bote_basura" 33%/33% 40% 26%;
+
+}
+
+.container_carrito_imagen {
+    grid-area: imagen;
+    width: 100%;
+    height: 100%;
+
+}
+
+.container2_carrito_imagen {
+    width: 80%;
+    height: 90%;
+}
+
+.carrito_imagen {
+    width: 100%;
+    height: 70%;
+    object-fit: contain;
+
+}
+
+.container_nombre {
+    grid-area: nombre;
+    text-align: center;
+
+}
+
+.container_precio {
+    grid-area: precio;
+    text-align: center;
+
+}
+
+.container_descripcion {
+    grid-area: descripcion;
+    width: 90%;
+    margin-left: 7%;
+
+}
+
+.container_cantidad {
+    grid-area: cantidad;
+}
+
+.eliminar_i {
+    grid-area: bote_basura;
+}
+
+.bote_basura_i {
+    font-size: 30px;
+    color: red;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Pagos */
+.pagar_section_class {
+    width: 100%;
+    height: 100%;
+}
+
+.pagar_section1_class {
+    width: 80%;
+    height: 80%;
+    border: 5px solid black;
+}
+
+.pagar_section2_class {
+    width: 90%;
+    height: 90%;
+    display: grid;
+    grid-template-areas:
+        "cupon"
+        "productos"
+        "sub-total"
+        "total"
+        "boton_pagar";
+    grid-template:
+        "cupon" 22%
+        "productos"
+        "sub-total" 20%
+        "total" 10%
+        "boton_pagar" /100%;
+}
+
+.section_discount_class {
+    grid-area: cupon;
+    width: 100%;
+    margin-right: 1%;
+}
+
+.code_class {
+    width: 100%;
+    height: 60px;
+    border-radius: 5px;
+}
+
+.section_productos_class {
+    grid-area: productos;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-areas:
+        "nombre_final"
+        "monto_final_producto";
+    grid-template:
+        "nombre_final monto_final_producto" /60% 40%;
+
+}
+
+.lista {
+    list-style: none;
+    display: block;
+}
+
+.ul_list_class {
+    width: 100%;
+    display: inline-block;
+
+}
+
+.lista_productos_class {
+    grid-area: nombre_final;
+
+}
+
+/*
+.lista_cantidad_productos_class{
+    grid-area: cantidad_final;
+}*/
+.lista_total_pagar_productos_class {
+    grid-area: monto_final_producto;
+}
+
+.section_sub_total_class {
+    width: 100%;
+    height: 100%;
+    border-top: 1px dotted gray;
+    padding-top: 10px;
+    /*display:flex;
+justify-content:space-evenly;
+align-items:center;
+  grid-area: sub-total;  */
+    display: grid;
+    grid-template-areas:
+        "lista_sub_total"
+        "total_sub_total";
+    grid-template:
+        "lista_sub_total toal_sub_total" /50% 50%;
+}
+
+.lista-sub_total_class {
+    grid-area: lista_sub_total;
+}
+
+.total_sub_total {
+    grid-area: total_sub_total;
+}
+
+.total_section_class {
+    border-top: 1px dotted gray;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bttn_pago_final_class {
+    border-top: 1px dotted gray;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bttn_final_class {
+    width: 100%;
+    height: 45px;
+}
+
+/* /
+/* responsive */
+@media screen and (min-width: 1200px) {
+    .main_class {
+        grid-template:
+            "container1 container2 container3 container4"
+            " container5 container6 container7 container8"
+            "container9 container10 container11 container12";
+    }
+
+    .container_carrito_class {
+        margin-top: 5%;
+        margin-bottom: 5%;
+        border-bottom: 1px solid gray;
+        width: 90%;
+        height: 200px;
+        display: grid;
+        grid-template-areas:
+            "imagen"
+            "nombre"
+            "precio"
+            "descripcion"
+            "cantidad"
+            "bote_basura";
+        grid-template:
+            "bote_basura imagen cantidad nombre precio" 50%
+            "bote_basura imagen cantidad descripcion precio" 50%/10% 20% 30% 40% 10%;
+
+    }
+}

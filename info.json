@@ -1,0 +1,110 @@
+[ 
+  {
+    "nombre": "Astro A50",
+    "descripcion": "audifonos de alta calidad para disfrutar de una experiencia agradable",
+    "precio": 5200,
+    "stock": 12,
+    "cantidad": 1,
+    "pagar": 5200,
+    "imagen": "/img/audifonos/Astro2.png"
+  },
+  { 
+    "nombre": "Escritorio reddeksk",
+    "descripcion": "escritorio de facil acceso para mantener en orden tus cosas.",
+    "precio": 7500,
+    "stock": 8,
+    "cantidad": 1,
+    "pagar": 7500,
+    "imagen": "/img/escritorio/Escritorio1.png"
+  },
+  {
+    "nombre": "kinetick-g31",
+    "descripcion": "reloj ultra comodo que te ayuda con tareas de uso cotidiano",
+    "precio": 8000,
+    "stock": 20,
+    "cantidad": 1,
+    "pagar": 8000,
+    "imagen": "/img/kine/Kine1.png"
+  },
+  {
+    "nombre": "Modem hts-link",
+    "descripcion": "si deseas velocidad no dudes en comprarlo",
+    "precio": 1800,
+    "stock": 15,
+    "cantidad": 1,
+    "pagar": 1800,
+    "imagen": "/img/modem/Modem1.png"
+  },
+  {
+    "nombre": "Dell inspiron",
+    "descripcion": "Una increible computadora que te ayudara con tus labores escolares, empresariales y cotidianas",
+    "precio": 16000,
+    "stock": 15,
+    "cantidad": 1,
+    "pagar": 16000,
+    "imagen": "/img/laptopdell/Laptop1.png"
+  },
+  {
+    "nombre": "Monitor hky-17",
+    "descripcion": "un monitor de alta fidelidad con una tasa refresco increible",
+    "precio": 6700,
+    "stock": 25,
+    "cantidad": 1,
+    "pagar": 6700,
+    "imagen": "/img/monitor/Monitor1.png"
+  },
+  {
+    "nombre": "Mouse logitech 14hgt",
+    "descripcion": "un mouse escencial para largas jornadas frente a tu computadora ",
+    "precio": 1700,
+    "stock": 78,
+    "cantidad": 1,
+    "pagar": 1700,
+    "imagen": "/img/mouse/Mouse1.png"
+  },
+  {
+    "nombre": "Mouse pad RGB hre12",
+    "descripcion": "mantente comodo mientras disfrutas de las luces rgb ",
+    "precio": 100,
+    "stock": 25,
+    "cantidad": 1,
+    "pagar": 100,
+    "imagen": "/img/mousepad/Mousepad1.png"
+  },
+  {
+    "nombre": "Silla gamer vbf",
+    "descripcion": "silla ergonomica ideal para largas jornadas de trabajo",
+    "precio": 4600,
+    "stock": 27,
+    "cantidad": 1,
+    "pagar": 4600,
+    "imagen": "/img/silla/Silla1.png"
+  },
+  {
+    "nombre": "Sp Teatro 18gd",
+    "descripcion": "disfruta de increibles sonido sorround 7.1",
+    "precio": 85000,
+    "stock": 4,
+    "cantidad": 1,
+    "pagar": 85000,
+    "imagen": "/img/teatro/Teatro1.png"
+  },
+  {
+    "nombre": "Teclado logitech",
+    "descripcion": "el mejor de todo los teclados ",
+    "precio": 5700,
+    "stock": 124,
+    "cantidad": 1,
+    "pagar": 5700,
+    "imagen": "/img/teclado/Teclado1.png"
+  },
+  {
+    "nombre": "Xiaomi qzp-22",
+    "descripcion": "lo mejor si buscas calidad y precio",
+    "precio": 6800,
+    "stock": 254,
+    "cantidad": 1,
+    "pagar": 6800,
+    "imagen": "/img/xiaomi/Xiaomi1.png"
+  }
+]
